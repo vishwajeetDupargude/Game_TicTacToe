@@ -18,3 +18,5 @@ def random_place(board,player):
     loc= random.choice(possablites(board))
     board[loc]= player
     return board
+
+def win_ratio()    
